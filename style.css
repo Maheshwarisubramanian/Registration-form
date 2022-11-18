@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: purple;
+    }
+section{
+    background-color: rgb(14, 74, 240);
+    background-image: url("man.png") ;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.container{
+   background-image: url("man.png") ;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 50px;   
+    border-style: inset;
+    border-radius: 90px;
+
+}
+
+.form-group{  
+    
+    font-size: 30px;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    
+}
+
+textarea{
+    resize: vertical;
+}
+
+button[type = "submit"; type = "reset"]{  
+  
+    font-family: 'Courier New', Courier, monospace;
+    
+    text-align: center;
+    cursor : pointer:
+    
+    /* transition: .3s ease background-color; */
+}
+
+
+

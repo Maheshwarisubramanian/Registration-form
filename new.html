@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .special {
+        color: whitesmoke;
+      }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+<section>
+  <div class="container">
+    <form action="https://formspree.io/f/xvoyllzl" method="post">
+      <caption><h1 style="color: red; text-align:center; background-color:purple " >Registeration</h1></caption>
+      <div class="form-group" >
+        <label for="firstname" class="special"><b>First name:</b></label>
+        <input type="text" id="firstname" name="firstname" required>
+
+      </div>
+      <div class="form-group">
+        <label for="lastname" class="special"><b>Last name:</b></label>
+        <input type="text" id="lastname" name="lastname" required>
+
+      </div>
+      <div class="form-group">
+        <label for="email" class="special"><b>email:</b></label>
+        <input type="email" id="email" name="email" required>
+
+      </div>
+      <div>
+        <div class="form-group">
+          <label type ="massage" id="massage" name="massage" class="special"><b>Massage</b></label>
+          <textarea name="massage" id="massage" cols="30" rows="10" required></textarea>
+        </div>
+      </div>
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+    </form>
+  </div>
+  <div id="status"></div>
+</section>
+</body>
+</html>
+
